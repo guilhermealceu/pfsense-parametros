@@ -67,9 +67,9 @@ run_test() {
     fi
 }
 
-# Executa testes para cada link
-run_test "Vivo" "177.16.8.129"
-run_test "Ligga" "200.195.177.161"
+# Executa testes para cada link ip do getway da interface!
+run_test "Vivo" "0.0.0.0"
+run_test "Ligga" "0.0.0.0"
 
 # Limita número de registros no CSV
 { echo "$HEADER"; tail -n $MAX_RECORDS "$OUT" | sed '1d'; } > "$TEMP_FILE"

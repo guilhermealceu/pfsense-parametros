@@ -1,0 +1,6 @@
+Timestamp,Gateway,Download(Mbps),Upload(Mbps),Ping(ms)
+2025-06-04 15:05:54,Ligga,46.70,43.66,0.52
+2025-06-04 15:06:31,Vivo,653.27,44.55,3.05
+2025-06-04 15:15:16,Vivo,675.02,180.20,2.93
+2025-06-04 15:15:41,Ligga,48.55,44.39,0.62
+...assim por diante ele cria os gráficos remover os dados e manter o cabeçalho!
